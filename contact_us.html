@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+  <link rel="stylesheet" type="text/css" href="styles/keyframes.css" />
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h1>LYRE FESTIVAL</h1>
+        </div>
+    </header>
+    <nav>
+        <div id="nav">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about_us.html"><li>About Us</li></a>
+                <a href="news_blog.html"><li>News Blog</li></a>
+                <a href="playing_live.html"><li>Playing LIVE</li></a>
+                <a href="places_to_eat.html"><li>Places to Eat</li></a>
+                <a href="festival_map.html"><li>Festival Map</li></a>
+                <a href="festival_location.html"><li>Where we are</li></a>
+                <a href="book_tickets.html"><li>Book Tickets</li></a>
+                <a href="contact_us.html"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="main">
+            <h2>CONTACT US</h2>
+            <h3>Want to contact us</h3>
+            <p><b>you can call us on 01234 56789</b></p>
+            <p><b>Or you can use the form below and we will get back to you shortly</b></p>
+
+            <form action="mailto:RobertFrankGrady.bootcamp@justit.co.uk" id="contactForm" method="post" enctype="text/plain">
+                <fieldset>
+                    <label for="guestName"><p>Name: 
+                        <input type="text" id="guestName" name="guestName">
+                        </p>
+                    </label>
+                    <label for="guestEmail"><p>Email: 
+                        <input type="email" id="guestEmail" name="guestEmail"></p>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="comments"><p>Comments:</p>
+                        <textarea id="comments" name="comments" rows="8" cols="40"></textarea>
+                    </label><br><br>
+                    <input type="submit" value="send">
+                    <input type="reset" value="reset">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@keyframes rainbowWelcome {
+    0% {background-color: red;}
+    17% {background-color: orange;}
+    34% {background-color: rgb(230, 230, 0);}
+    51% {background-color: rgb(79, 216, 0);}
+    68% {background-color: rgb(0, 199, 199);}
+    85% {background-color: rgb(221, 0, 221);}
+    100% {background-color: red;}
+}
+
+#welcome{
+    animation-name: rainbowWelcome;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Tickets</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+  <link rel="stylesheet" type="text/css" href="styles/keyframes.css" />
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h1>LYRE FESTIVAL</h1>
+        </div>
+    </header>
+    <nav>
+        <div id="nav">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about_us.html"><li>About Us</li></a>
+                <a href="news_blog.html"><li>News Blog</li></a>
+                <a href="playing_live.html"><li>Playing LIVE</li></a>
+                <a href="places_to_eat.html"><li>Places to Eat</li></a>
+                <a href="festival_map.html"><li>Festival Map</li></a>
+                <a href="festival_location.html"><li>Where we are</li></a>
+                <a href="book_tickets.html"><li>Book Tickets</li></a>
+                <a href="contact_us.html"><li>Contact Us</li></a>
+              </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="main">
+            <h2>BOOK YOUR TICKETS</h2>
+
+            <form action="mailto:rgrady771@hotmail.com" id="bookingForm" method="post" enctype="text/plain">
+                <fieldset>
+                    <h3>Festival is held in FEBRUARY</h3>
+                    <label for="artist"><p><b>Artist:
+                        <input list="artistSelect" id="artist" name="artist">
+                        <datalist id="artistSelect">
+                            <option value="George Michael">George Michael</option>
+                            <option value="David Bowie">David Bowie</option>
+                            <option value="Ed Sheeran">Ed Sheeran</option>
+                        </datalist>
+                        </b></p>
+                    </label>
+                    <label for="noofGuests"><p><b>Guests:
+                        <input type="text" id="noofGuests" size="1" maxlength="2" name="noofGuests">
+                        Ticket Price:</b> £20</p>
+                    </label>
+                    
+                    <label for="dateChosen"><p><b>Day:
+                        <select name="dateChosen" id="dateChosen">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                        </select>
+                        February 2023</b></p>
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <input type="hidden" id="ticketprice" value="20" name="ticketprice">
+                    <input type="submit" value="book">
+                    <input type="reset" value="reset">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
